@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	text-align: center;
+	position: relative;
+	height: 100vh;
+}
+
+h2 {
+	transition: all 2s ease-in;
+}
+
+.form {
+	position: absolute;
+	display: inline-flex;
+	bottom: 1rem;
+	padding: 0.5rem 1rem;
+	gap: 0.5rem;
+	font-weight: bold;
+	background-color: bisque;
+}
+
+.form input {
+	width: 3rem;
+	padding: 0.1rem;
+	text-align: center;
+}
+
+.form input:focus {
+	outline: none;
+}
